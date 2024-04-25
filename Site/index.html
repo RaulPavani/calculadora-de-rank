@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Nível de Jogador</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container">
+    <img src="badges.png" alt="Badges Image">
+    <h1>Verificador de Nível de Jogador</h1>
+    <p>Insira a quantidade de vitórias e derrotas do jogador para verificar seu nível:</p>
+    <div class="input-container">
+      <input type="number" id="wins" placeholder="Vitórias">
+      <input type="number" id="loses" placeholder="Derrotas">
+      <button onclick="calcularNivel()">Verificar</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
