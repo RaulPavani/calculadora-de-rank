@@ -31,6 +31,6 @@ function calcularNivel() {
         level = "Sem Rank!";
     }
   
-    document.getElementById("result").innerText = `O Herói tem um saldo de ${winRate} e está no nível de ${level}`;
+    document.getElementById("result").innerText = `O Herói tem um saldo de ${winRate} vitórias, e está no rank ${level}`;
 }
   
